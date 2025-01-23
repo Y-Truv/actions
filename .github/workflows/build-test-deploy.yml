@@ -47,7 +47,7 @@ jobs:
 
     steps:
       - name: checkoput repo
-        uses: action/deploy-pages@v4          
+        uses: actions/deploy-pages@v4          
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: use node.js
